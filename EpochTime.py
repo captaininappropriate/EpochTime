@@ -4,12 +4,13 @@ import time
 
 # get the current time 
 current = int(time.time())
-print(current)
-
 
 # add N minutes to the current time
 print('Future Epoch time (in minutes)')
 futureTime = input('>>> ')
 
 future = int(time.time() + int(futureTime))
-print(future)
+
+print('JWT format')
+print('"iat": ' + str(current) + ',')
+print('"exp": ' + str(future) + ',')
