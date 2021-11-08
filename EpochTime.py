@@ -9,8 +9,10 @@ current = int(time.time())
 print('Future Epoch time (in minutes)')
 futureTime = input('>>> ')
 
+# calculate the future time
 future = int(time.time() + int(futureTime))
 
-print('JWT format')
+# print the two epoch times
+print('-- JWT format --')
 print('"iat": ' + str(current) + ',')
 print('"exp": ' + str(future) + ',')
