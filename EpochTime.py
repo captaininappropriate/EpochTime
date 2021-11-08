@@ -6,6 +6,10 @@ import time
 current = int(time.time())
 print(current)
 
-# add 15 minutes (900) seconds to the current time
-future = int(time.time() + 900)
+
+# add N minutes to the current time
+print('Future Epoch time (in minutes)')
+futureTime = input('>>> ')
+
+future = int(time.time() + int(futureTime))
 print(future)
