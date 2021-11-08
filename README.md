@@ -1,3 +1,4 @@
 # EpochTime
 
-calculate current epoch time plus epoch time + n minutes
+Quick script to calculate current epoch time plus epoch time plus N minutes
+Output the format for easy copy/paste for use in a JWT token
